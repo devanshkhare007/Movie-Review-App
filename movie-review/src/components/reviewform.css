@@ -1,0 +1,60 @@
+.review-form {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #c48686;
+  border-radius: 5px;
+  background-color: #eaecce;
+}
+
+
+.review-form label {
+  font-weight: bold;
+  color: #000;
+}
+
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #4484C4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #223343;
+}
+/* reviewform.css */
+
+/* Styles for the rating stars */
+.rating-stars {
+  display: flex;
+  margin-bottom: 10px;
+  font-size: 24px; /* Adjust as needed */
+}
+
+.star-filled {
+  color: gold; /* Color for filled stars */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.star-empty {
+  color: lightgray; /* Color for empty stars */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+
